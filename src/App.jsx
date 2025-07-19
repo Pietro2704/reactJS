@@ -8,6 +8,7 @@ import MostrarText from './MostrarTexto'
 import Saudao from './Saudacao'
 import Tabuada from './Tabuada'
 import EstiloDinamico from './EstiloDinamico'
+import Input from './CampoSenha'
 
 function App() {
   
@@ -24,6 +25,8 @@ function App() {
       <Tabuada />
       <hr />
       <EstiloDinamico />
+      <hr />
+      <Input />
     </div>
   )
 }
