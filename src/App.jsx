@@ -5,6 +5,9 @@ import './App.css'
 import BotaoContador from './botaoContador'
 import ListaDeItens from './ListaDeItens'
 import MostrarText from './MostrarTexto'
+import Saudao from './Saudacao'
+import Tabuada from './Tabuada'
+import EstiloDinamico from './EstiloDinamico'
 
 function App() {
   
@@ -15,6 +18,12 @@ function App() {
       <hr />
       <ListaDeItens />
       <MostrarText />
+      <hr />
+      <Saudao nome="Enzo" mensagem="Ola meu parceiro"/>
+      <hr />
+      <Tabuada />
+      <hr />
+      <EstiloDinamico />
     </div>
   )
 }
