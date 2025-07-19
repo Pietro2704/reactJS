@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import BotaoContador from './botaoContador'
 import ListaDeItens from './ListaDeItens'
+import MostrarText from './MostrarTexto'
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
       <BotaoContador />
       <hr />
       <ListaDeItens />
+      <MostrarText />
     </div>
   )
 }
